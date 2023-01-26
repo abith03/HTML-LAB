@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab One</title>
+</head>
+<body>
+		<form action="/action_page.php">
+		  <label for="fname">Name:</label>
+		  <input type="text" id="fname" name="fname" placeholder="Enter Your Name" maxlength="25"><br><br>
+		  <label for="lname">Email:</label>
+		  <input type="text" id="lname" name="lname" value="test@example.com "><br><br>
+		  <label for="fname">Password:</label>
+		  <input type="text" id="fname" name="fname" maxlength="6">
+
+		<br><br>
+
+		<label for="Name">Category:</label>
+
+		<select name="Name" id="Name">
+			<option value="mercedes">student</option>
+			<option value="saab">Employee</option>
+		    <option value="volvo" selected="freelancer">freelancer</option>
+		
+		</select>
+		<br><br>
+        
+        <label for="Event">Event date:</label>
+
+		<input type="date" id="Event" name="trip-start"
+           value="2022-11-22"
+           min="2022-01-01" max="2022-12-31"><br><br>
+
+        <p>Please select your Tickets:</p>
+		  <input type="radio" id="Ticket1" name="age">
+		  <label for="Ticket1">Ticket1</label><br>
+		  <input type="radio" id="Ticket2" name="age" value="Ticket2" checked="Ticket2s">
+		  <label for="Ticket2">Ticket2</label><br>  
+		  <input type="radio" id="Ticket3" name="age">
+		  <label for="Ticket3" >Ticket3</label><br><br>
+
+          <label for="Online Payment">Online Payment</label>
+		  <input type="checkbox" name="Online Payment"><br><br>
+
+		  <p><label for="review">Notes:</label></p>
+          <textarea id="review" name="review" rows="4" cols="50" placeholder="Enter Your Notes Here"></textarea>
+          <br>
+          <input type="submit" value="Submit">
+		</form>
+
+
+</body>
+</html>
